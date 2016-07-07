@@ -1,0 +1,15 @@
+.container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.container > div {
+  width: 50%;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 400px;
+}
