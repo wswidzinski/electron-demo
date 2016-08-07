@@ -2,6 +2,6 @@
 <hr>
 
 <div class="container">
-  <div>{{textarea value=model.content}}</div>
+  {{ace-editor value=model.content aceInit=aceInit class="editor"}}
   {{markdown-renderer note=model}}
 </div>

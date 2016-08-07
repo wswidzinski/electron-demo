@@ -25,6 +25,7 @@
     "electron-prebuilt": "1.2.6",
     "electron-rebuild": "1.1.5",
     "ember-ajax": "^2.0.1",
+    "ember-browserify": "^1.1.11",
     "ember-cli": "2.6.0-beta.2",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.6",
@@ -89,5 +90,8 @@
       "ProductName": null,
       "InternalName": null
     }
+  },
+  "dependencies": {
+    "brace": "^0.8.0"
   }
 }
